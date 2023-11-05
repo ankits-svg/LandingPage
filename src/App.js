@@ -9,6 +9,7 @@ import Piggy from "./Components/Piggy/Piggy";
 import Metal from "./Components/Metal/Metal";
 import Credit from "./Components/Credit/Credit";
 import Bank from "./Components/Bank/Bank";
+import Card from "./Components/Card/Card";
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
       <Metal/>
       <Credit/>
       <Bank/>
+      <Card/>
       <Piggy/>
       <Features/>
       <Flux/>

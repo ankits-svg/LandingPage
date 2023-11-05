@@ -1,0 +1,54 @@
+.card{
+    /* border:1px solid red; */
+    width: 100%;
+    background:linear-gradient(#5A5A5A, #A6A6A4);
+    display: flex;
+    display: grid;
+    grid-template-columns: 55% 50%;
+}
+/* .left{
+    margin-left: 30%;
+    text-align: start;
+} */
+.left{
+    /* border: 1px solid red; */
+    margin-left: 7%;
+    /* height: 500px; */
+    text-align: start;
+}
+.left h1{
+    /* font-family: 'neue-haas-grotesk-display', 'sans-serif'; */
+    font-family: 'Geologica', sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 0.3;
+    color: white;
+}
+.left .capa{
+    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 64px;
+    color: white;
+}
+/* .flux{
+    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 21px;
+    color: white;
+} */
+.left p{
+    font-family: 'nunito-sans', 'sans-serif';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 21px;
+    color: white;
+}
+.right{
+    margin-left: -10%;
+}
