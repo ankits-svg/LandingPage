@@ -8,6 +8,7 @@ import Features from "./Components/Features/Features";
 import Piggy from "./Components/Piggy/Piggy";
 import Metal from "./Components/Metal/Metal";
 import Credit from "./Components/Credit/Credit";
+import Bank from "./Components/Bank/Bank";
 
 
 function App() {
@@ -66,6 +67,7 @@ function App() {
       <h1>Landing Page</h1>
       <Metal/>
       <Credit/>
+      <Bank/>
       <Piggy/>
       <Features/>
       <Flux/>

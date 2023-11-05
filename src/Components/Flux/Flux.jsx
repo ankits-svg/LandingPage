@@ -21,7 +21,7 @@ const Flux = () => {
         <h1>time machine for</h1>
         <h1>your money.</h1>
         <p>
-          <span className="flu">flux</span>capacitor lets you get your paycheck
+          <span className="flux">flux</span>capacitor lets you get your paycheck
           early3, and a whole lot more.
         </p>
         <p>
