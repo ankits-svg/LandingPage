@@ -11,6 +11,7 @@ import Credit from "./Components/Credit/Credit";
 import Bank from "./Components/Bank/Bank";
 import Card from "./Components/Card/Card";
 import News from "./Components/News/News";
+import Hero from "./Components/Hero/Hero";
 
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
         Hi!! what are you doing
       </button> */}
       <h1>Landing Page</h1>
+      <Hero/>
       <News/>
       <Metal/>
       <Credit/>
