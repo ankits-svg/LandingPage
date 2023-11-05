@@ -1,0 +1,59 @@
+.boxF{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 10%; */
+    background: linear-gradient(#FFFFFF, #FFFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box2{
+    /* border: 1px solid black; */
+    width: 35%;
+    /* height: 500px; */
+}
+.box2 video{
+    width: 100%;
+    /* height: 70%; */
+}
+.box3{
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 500px; */
+    text-align: start;
+}
+.box3 h1{
+    /* font-family: 'neue-haas-grotesk-display', 'sans-serif'; */
+    font-family: 'Geologica', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 64px;
+    color: #0e0e0e;
+}
+.box3 .capa{
+    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+    font-weight: 100;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 64px;
+    color: #0e0e0e;
+}
+.flu{
+    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000000;
+}
+.box3 p{
+    font-family: 'nunito-sans', 'sans-serif';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 21px;
+    color: #000000;
+}

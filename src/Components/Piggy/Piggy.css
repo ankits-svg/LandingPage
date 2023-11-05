@@ -1,0 +1,59 @@
+.piggy{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 10%; */
+    background: linear-gradient(#FFFFFF, #FFFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    /* border: 1px solid black; */
+    width: 35%;
+    /* height: 500px; */
+}
+.box2 video{
+    width: 100%;
+    /* height: 70%; */
+}
+.box3{
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 500px; */
+    text-align: start;
+    margin-top: -5%;
+}
+.box3 h1{
+    /* font-family: 'neue-haas-grotesk-display', 'sans-serif'; */
+    font-family: 'Geologica', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 0.3;
+    color: #0e0e0e;
+}
+.box3 .capa{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 90;
+    font-style: normal;
+    font-size: 88px;
+    line-height: 64px;
+    color: #0e0e0e;
+}
+.flu{
+    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 21px;
+    color: #000000;
+}
+.box3 p{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.3;
+    color: #000000;
+}
