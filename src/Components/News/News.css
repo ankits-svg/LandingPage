@@ -1,0 +1,16 @@
+.news{
+    /* border: 1px solid red; */
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.news div p{
+    color: gray;
+    margin-top: 5px
+}
+.news div img{
+    margin-top: 10px;
+}
