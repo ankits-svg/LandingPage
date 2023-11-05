@@ -2,7 +2,8 @@
     /* border:1px solid red; */
     width: 100%;
     background:#797979;
-    background: linear-gradient(#797979,#757375);
+    /* background: linear-gradient(#797979,#757475); */
+    background-color: #757475;
     display: flex;
     display: grid;
     grid-template-columns: 55% 50%;

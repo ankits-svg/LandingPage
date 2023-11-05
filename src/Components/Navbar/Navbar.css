@@ -1,0 +1,65 @@
+/* Base styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #757475;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: background-color 0.3s;
+}
+.navbar.sticky {
+    background-color: black;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    padding: 5px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    /* Styles for tablets */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for mobile */
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+}
