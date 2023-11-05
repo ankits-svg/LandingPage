@@ -14,7 +14,7 @@ const Flux = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-      <div className="box3">
+      <div className="box3e">
         <h1>
           flux<span className="capa">capacitor</span> is a
         </h1>

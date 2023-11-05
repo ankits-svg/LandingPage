@@ -22,7 +22,7 @@ const Hero = () => {
           We think it’s the best looking unicorn themed free metal card on
           earth, but that’s just us.
         </p>
-        <div className="horse">
+        {/* <div className="horse">
           <div className="image-container">
             <img
               src="https://wsrv.nl/?url=cred.ai/wp-content/uploads/2021/03/signupbutton.png"
@@ -38,14 +38,14 @@ const Hero = () => {
             <img width={"58%"} src="https://wsrv.nl/?url=cred.ai/wp-content/uploads/2021/03/googlePlay.png" alt="third" />
           </div>
           
-        </div>
+        </div> */}
         <div className="condition">
             <p>*Applying does not impact your FICO score, and a FICO score is not required to apply.</p>
             <p>**Only available to USA residents.  Requires mobile device with iOS 12/Android 9 or higher.</p>
           </div>
       </div>
       <div className="r">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted className="hor">
           <source
             src="https://cred.ai/wp-content/uploads/2021/05/mrEdBNEW.mp4"
             type="video/mp4"

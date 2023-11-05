@@ -1,61 +1,50 @@
-.hero{
-    /* border:1px solid red; */
+/* Base styles for laptop screens */
+.hero {
     width: 100%;
-    background:#797979;
-    /* background: linear-gradient(#797979,#757475); */
-    background-color: #757475;
+    background: #757475;
     display: flex;
     display: grid;
     grid-template-columns: 55% 50%;
-}
-/* .left{
-    margin-left: 30%;
-    text-align: start;
-} */
-.l{
-    /* border: 1px solid red; */
+  }
+  
+  .l {
     margin-left: 7%;
-    /* height: 500px; */
     text-align: start;
-}
-.l h1{
-    /* font-family: 'neue-haas-grotesk-display', 'sans-serif'; */
+  }
+  
+  .l h1 {
     font-family: 'Geologica', sans-serif;
     font-weight: 1000;
     font-style: normal;
     font-size: 88px;
     line-height: 0.3;
     color: white;
-}
-.l .capa{
-    font-family: 'neue-haas-grotesk-display', 'sans-serif';
+  }
+  
+  .l .capa {
+    font-family: 'Geologica', sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 88px;
     line-height: 64px;
     color: white;
-}
-/* .flux{
-    font-family: 'neue-haas-grotesk-display', 'sans-serif';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 19px;
-    line-height: 21px;
-    color: white;
-} */
-.l p{
+  }
+  
+  .l p {
     width: 70%;
-    font-family: 'nunito-sans', 'sans-serif';
+    font-family: 'nunito-sans', sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 19px;
     line-height: 21px;
     color: white;
-}
-.r{
+  }
+  
+  .r {
     margin-left: -10%;
-}
-.horse {
+  }
+  
+  .horse {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,8 +53,49 @@
   .image-container {
     margin: 0 10px;
   }
-.condition p{
+  
+  .condition p {
     font-size: 13px;
     line-height: 0.3;
     color: black;
-}
+  }
+  
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      flex-direction: column;
+    }
+  
+    .l {
+      margin-left: 0;
+      text-align: center; /* Center align for mobile */
+      height: auto; /* Set a fixed height or 'auto' based on your design */
+    }
+  
+    .l h1,
+    .l .capa {
+      font-size: 36px;
+      line-height: 1.2;
+    }
+  .condition{
+    display: none;
+  }
+    .l p {
+      width: 100%;
+    }
+  
+    .r {
+      margin-left: 0;
+    }
+  
+    .image-container {
+      margin: 10px 0;
+    }
+    .hor {
+        width: 100%; /* Adjust the width as needed */
+        height: auto; /* Set height to 'auto' for responsiveness */
+      }
+  }
+  
+  
